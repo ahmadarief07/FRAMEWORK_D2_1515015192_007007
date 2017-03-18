@@ -22,7 +22,7 @@ class MatakuliahController extends Controller
 		$matakuliah-> id = '1';
 		$matakuliah-> title = 'Framework Programming';
 		$matakuliah-> keterangan = 'A';
-		$dosen-> save();
-		return "title {$matakuliah->title} telah disimpan";
+		$matakuliah-> save();
+		return "Matakuliah {$matakuliah->title} telah disimpan";
 	}
 }

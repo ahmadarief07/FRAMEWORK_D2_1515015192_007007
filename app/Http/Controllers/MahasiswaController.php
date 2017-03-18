@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
-
+use App\mahasiswa;
 class MahasiswaController extends Controller
 {
      public function awal()
@@ -25,6 +25,6 @@ class MahasiswaController extends Controller
 		$mahasiswa-> alamat = 'Semarang';
 		$mahasiswa-> pengguna_id = 'Arief';
 		$mahasiswa-> save();
-		return "name {$mahasiswa->name} telah disimpan";
+		return "Nama {$mahasiswa->name} telah disimpan";
 	}
 }
