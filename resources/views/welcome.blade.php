@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Ahmad Arief</div>
+                <div class="title">Sri Uswatul</div>
             </div>
         </div>
     </body>
