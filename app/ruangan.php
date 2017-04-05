@@ -6,6 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class ruangan extends Model
 {
+    //
     protected $table = 'ruangan';
-    protected $fillable = ['id','title'];
+    protected $fillable = ['title'];
+
+   public function jadwal_matakuliah(){
+   return $this->HasMany(Jadwal_mahasiswa::class);
+	}
 }
